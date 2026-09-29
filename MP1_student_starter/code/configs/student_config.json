@@ -1,0 +1,23 @@
+{
+  "vocab": 2048,
+  "width": 160,
+  "heads": 5,
+  "depth": 6,
+  "context": 256,
+  "copy_weight": 0.20,
+  "copy_decay": 64.0,
+  "use_train_memory": true,
+  "ngram_smoothing": [
+    1500.0,
+    80.0
+  ],
+  "architecture": "rotary_swiglu",
+  "adaptive_ngram2": [
+    5.0,
+    6.0
+  ],
+  "adaptive_ngram3": [
+    4.0,
+    4.0
+  ]
+}
